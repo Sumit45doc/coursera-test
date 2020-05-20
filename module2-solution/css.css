@@ -8,24 +8,32 @@ h1{
 	margin-bottom: 30px;
 }
 
-p.main{
-	width: 90%;
-	
+div.main{
+	width: 95%;
 	background-color: grey;
 	border: 1px;
 	border-color: black;
-	padding: 20px;
-	position: relative;
-	clear: right;
+	text-align: center;
+	position: relative;	
 	margin-left: auto;
 	margin-right: auto;
-	color: black;
 	font-family: "Times New Roman", Times, serif;
 	font-style:  oblique;
 
 }
-p.chicken{
-	width: auto;
+p{
+	width: 95%;
+	clear: both;
+	background-color: grey;
+	border-color: black;
+	text-align: center;
+	padding: 10px;	
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-style:  oblique;
+}
+.chicken{
+	width: 100px;
 	height: 20px;
 	border: 1px;
 	border-color: black;
@@ -33,11 +41,11 @@ p.chicken{
 	float: right;
 	color: black;
 	text-align: center;
-	margin-bottom: 10px;
+
 
 }
-p.beef{
-	width: auto;
+.beef{
+	width: 100px;
 	height: 20px;
 	border: 1px;
 	border-color: black;
@@ -47,13 +55,13 @@ p.beef{
 	text-align: center;
 
 }
-p.sushi{
-	width: 50px;
+.sushi{
+	width: 100px;
 	height: 20px;
 	border: 1px;
 	border-color: black;
 	background-color: lightyellow;
-	float: top right;
+	float:  right;
 	color: black;
 	text-align: center;
 }
